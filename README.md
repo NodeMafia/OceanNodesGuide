@@ -20,9 +20,14 @@ Quick Install of Node by curl
 
 After installation, press Y and Enter. After that insert our privat key from EVM wallet into the terminal.( Format: 0x<privatkey>). Then insert the address of EVM wallet. Press Enter 5 times.
 
-![image](https://github.com/user-attachments/assets/c63f37d6-ef1d-4a3c-a4b5-b19b75541b60)
+![image](https://github.com/user-attachments/assets/c9029c8f-3426-4e13-84be-9d3c73a5e1bc)
+
 
 Next, you will need to enter the IP of the server on which the node will be installed.
+```
+docker-compose up -d
+docker-compose logs -f
+```
 Noda has been launched, congrats.
 
 ## Dashboard and uptime tracking.
