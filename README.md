@@ -15,8 +15,9 @@ The point of the rewards is high uptime of the server (node). Every week the rew
 Quick Install of Node by curl
 
 ![image](https://github.com/user-attachments/assets/4b545946-ffc8-49b8-85c7-dd49bdc3256e)
-
-```curl -O https://raw.githubusercontent.com/oceanprotocol/ocean-node/main/scripts/ocean-node-quickstart.sh && chmod +x ocean-node-quickstart.sh && ./ocean-node-quickstart.sh```
+```
+curl -O https://raw.githubusercontent.com/oceanprotocol/ocean-node/main/scripts/ocean-node-quickstart.sh && chmod +x ocean-node-quickstart.sh && ./ocean-node-quickstart.sh
+```
 
 After installation, press Y and Enter. After that insert our privat key from EVM wallet into the terminal.( Format: 0x<privatkey>). Then insert the address of EVM wallet. Press Enter 5 times.
 
